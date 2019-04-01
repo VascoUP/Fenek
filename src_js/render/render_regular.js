@@ -295,7 +295,7 @@ var renderRegular = function() {
 		camPosition[2] = camera.position.z;
 		camPosition[3] = 1.0;
 		shader_data.setFloat32Array("cameraPosition", camPosition);
-		shader_data.setFloat32("radius", 0.2);
+		shader_data.setFloat32("radius", 0.1);
 		shader_data.setFloat32("bias", 0.05);
 		shader_data.setFloat32Array("ssaoSamples[0]", state.kernelSSAO);
 
